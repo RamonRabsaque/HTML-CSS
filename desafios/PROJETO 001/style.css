@@ -30,9 +30,8 @@ a:hover {
     display: inline-block;
     text-decoration: underline;
     color: #dab18d;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
-
 header {
 
     max-width: 2000px;
@@ -41,8 +40,8 @@ header {
 span.box {
     width: 700px;
     height: 500px;
-}
 
+}
 .div1 {
     width: 1300px;
     height: 300px;
@@ -80,7 +79,7 @@ span.box {
     margin-left: 35px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.178);
     background-attachment: scroll;
-    backface-visibility: inherit;   
+       
 }
 .minidiv{
     height: 270px;
