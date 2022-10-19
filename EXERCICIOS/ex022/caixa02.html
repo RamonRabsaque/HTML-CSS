@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        header{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: lightgray;
+            padding: 15px;
+            margin: 8px;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;  
+            font-family: monospace;
+            font-size: 1.5em;
+            color: rgba(243, 47, 47, 0.849);
+            
+        }
+        a:hover{
+            text-decoration: underline;
+            color:rgba(255, 145, 0, 0.466)
+        }
+        #assuntos{
+            font-family: monospace;
+            font-size: large;
+            background-color: lightgray;
+            font-weight: 800;
+            font-style: italic;
+            text-align: right;
+        }
+        nav >a{
+            margin-right: 50px;
+        }
+        article{
+            background-color: darkgray;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            
+        }
+        aside{
+            background-color: rgba(53, 47, 47, 0.623);
+            color: whitesmoke;
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-family: monospace;
+            font-weight: bolder;
+            padding: 5px;
+            font-style: oblique;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, animi officia delectus dignissimos distinctio repudiandae laboriosam quibusdam maxime fuga aliquid quia provident doloribus voluptate excepturi asperiores? Eaque magni vero dicta!</p>
+                <aside>
+                    <p>Artigo criado por Ramon rabsaque</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido /por Ramonzinho</p>
+    </footer>
+</body>
+</html>
