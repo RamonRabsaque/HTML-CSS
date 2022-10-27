@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas 02</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: lightgray;
+        }
+        table{
+            width: 80vw;
+            text-align: center;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: white;
+        }
+        thead{
+            background-color: gray; 
+            font-weight: 800;
+            color: white;
+            font-size: 15px;
+        }
+        tr > td{
+            border: 1px solid black;
+            padding: 15px;
+        }
+        td.Mud{
+            color: green;
+        }
+        .pais{
+            text-align: center;
+        }
+        .pop{
+            text-align: right;
+            padding-right: 5px;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Posição</td>
+                <td>Unidade federativa</td>
+                <td>População <br>
+                (2021)</td>
+                <td>Mudança</td> 
+                <td>% da pop. <br>total</td>
+                <td>Pais comparavel <br>(
+habitantes)
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>são paulo</td>
+                <td class="pop">46.649.132</td>
+                <td class="Mud">+13.05%</td>
+                <td class="pais">21,9%</td>
+                <td class="pais">Espanha (46 439 864)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas gerais</td>
+                <td class="pop">21.411.923</td>
+                <td class="Mud">+9.26%</td>
+                <td class="pais">10,1%</td>
+                <td class="pais">Sri Lanka (20 675 000)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de janeiro</td>
+                <td class="pop">17.463.349</td>
+                <td class="Mud">+9.21%</td>
+                <td class="pais">8,2%</td>
+                <td class="pais">Síria (17 500 658)</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td> Bahia</td>
+                <td class="pop">14.985.284</td>
+                <td class="Mud">+6.91%</td>
+                <td class="pais">7,1%</td>
+                <td class="pais"> Chade (14 037 000)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td class="pop">11.597.484</td>
+                <td class="Mud">+11.04%</td>
+                <td class="pais">5,4%</td>
+                <td class="pais">Bolívia (11 410 651)</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td> Rio Grande do Sul</td>
+                <td class="pop">11.466.630</td>
+                <td class="Mud">+7.23%</td>
+                <td class="pais">5,4%</td>
+                <td class="pais"> Bielorrússia (9 485 300)</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernambuco</td>
+                <td class="pop">9.674.793</td>
+                <td class="Mud">+9.98%</td>
+                <td class="pais">4,5%</td>
+                <td class="pais"> Bielorrússia (9 485 300)</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td class="pop">9.240.580</td>
+                <td class="Mud">+9.32%</td>
+                <td class="pais">4,3%</td>
+                <td class="pais"> Emirados Árabes Unidos (9 157 000)</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td class="pop">8.777.124</td>
+                <td class="Mud">+15.78%</td>
+                <td class="pais">4,1%</td>
+                <td class="pais">Áustria (8 602 112)</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td class="pop">7.338.473</td>
+                <td class="Mud">+17.44%</td>
+                <td class="pais">3,4%</td>
+                <td class="pais">Sérvia (7 114 393)</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
