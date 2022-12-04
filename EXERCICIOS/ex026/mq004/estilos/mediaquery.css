@@ -2,3 +2,78 @@
 
 /*Todas as outras medias*/
 
+/* typical device brakpoints
+----------------------------
+Pequenas relas :
+
+Celular: 600px até 768px
+tablet: 769px até 992px
+desktop: 992px até 1200px
+
+Grandes telas: acima de 1200px
+*/
+
+@media print {
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /*Tablet*/
+    body{
+
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    /*Desktop*/    
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 1200px){
+    /*Grandes telas*/   
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    } 
+    main{
+        width: 80%;
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+}
+
+@media print {
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: hotpink;
+        
+    }
+    h1{
+        background-image: url(../imagens/back-print.jpg);
+        color: darkred;
+        font-family: monospace;
+
+    }
+    main{
+        border: 1px solid green;
+    }
+    main::after{
+        content: "essa impressão foi feita por ramonzinho rabsaque";
+        text-decoration: overline;
+    }
+}
