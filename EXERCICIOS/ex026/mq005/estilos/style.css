@@ -20,7 +20,7 @@ header > h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -29,10 +29,11 @@ menu > ul{
 }
 
 menu > ul > li > a{
-    display: none;
+    display: block;
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    transition-duration: 0.5s;
     background: rgb(85, 85, 85);
     color: white;
     border: 1px solid rgb(182, 182, 182);
