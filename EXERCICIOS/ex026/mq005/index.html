@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-icons" onclick="clickmenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">opão 1</a></li>
+                <li><a href="#">opão 2</a></li>
+                <li><a href="#">opão 3</a></li>
+                <li><a href="#">opão 4</a></li>
+                <li><a href="#">opão 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat culpa vel consectetur, soluta alias sint, amet ratione molestias asperiores porro possimus aut impedit dolorem facilis voluptatem numquam quae magni!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat culpa vel consectetur, soluta alias sint, amet ratione molestias asperiores porro possimus aut impedit dolorem facilis voluptatem numquam quae magni!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat culpa vel consectetur, soluta alias sint, amet ratione molestias asperiores porro possimus aut impedit dolorem facilis voluptatem numquam quae magni!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat culpa vel consectetur, soluta alias sint, amet ratione molestias asperiores porro possimus aut impedit dolorem facilis voluptatem numquam quae magni!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat culpa vel consectetur, soluta alias sint, amet ratione molestias asperiores porro possimus aut impedit dolorem facilis voluptatem numquam quae magni!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            itens.style.display = 'block'
+        }
+    </script>
+</body>
+</html>
